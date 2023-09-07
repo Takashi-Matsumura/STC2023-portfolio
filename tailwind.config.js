@@ -7,6 +7,7 @@ module.exports = {
         body: "#010000",
         "selected-text": "#A3A3FF",
         theme: "#5c318c",
+        secondary: "#9292A4",
       },
     },
     fontFamily: {
