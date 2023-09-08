@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "copy:html": "cp ./index.html ./out/index.html",
+    "dev": "npx tailwindcss -i ./input.css -o ./out/output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./out/output.css && npm run copy:html"
   },
   "author": "",
   "license": "UNLICENSED",
