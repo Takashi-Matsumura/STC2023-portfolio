@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy": "rm -rf ./public && cp -r ./src/ ./public && rm public/input.css",
+    "copy": "rm -r ./public/* && cp -r ./src/* ./public && rm public/input.css",
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && npm run copy"
   },
