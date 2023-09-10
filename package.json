@@ -2,16 +2,12 @@
   "name": "stc2023-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy:html": "cp ./index.html ./public/index.html",
-    "copy:css": "cp ./output.css ./public/output.css",
-    "copy:images": "cp -r ./images ./public/images",
-    "copy:js": "cp service-worker.js ./public/service-worker.js",
-    "copy:manifest": "cp manifest.json ./public/manifest.json",
-    "dev": "npx tailwindcss -i ./input.css -o ./output.css --watch",
-    "build": "npx tailwindcss -i ./input.css -o ./output.css && npm run copy:html && npm run copy:images && npm run copy:js && npm run copy:manifest"
+    "copy": "rm -r ./public && cp -r ./src/ ./public && rm public/input.css",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && npm run copy"
   },
   "author": "",
   "license": "UNLICENSED",

@@ -1,12 +1,12 @@
 {
-  "theme_color": "#f69435",
-  "background_color": "#f69435",
+  "theme_color": "#f8f8ff",
+  "background_color": "#f8f8ff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "my portfolio",
-  "short_name": "portfolio",
-  "description": "Portfolio web page created by STC2023",
+  "name": "MyPortfolio",
+  "short_name": "ポートフォリオ",
+  "description": "Portfolio webpage created by STC2023",
   "icons": [
     {
       "src": "images/icon-192x192.png",
