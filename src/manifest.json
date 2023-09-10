@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "MyPortfolio",
-  "short_name": "ポートフォリオ",
+  "name": "STC2023 Portfolio",
+  "short_name": "STC2023",
   "description": "Portfolio webpage created by STC2023",
   "icons": [
     {
